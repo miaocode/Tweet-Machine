@@ -1,0 +1,78 @@
+/* These CSS rules apply to the <html>, <body>, and <div id="app"> HTML elements in index.html */
+/* html, body, #app {
+  height: 100%;
+  width: 100%;
+  margin: 20;
+} */
+
+/* Continue building out the CSS styling for your Twiddler app below! We got you started by
+providing a space for you to apply styles to your app's outermost HTML element - the #app itself. */
+
+#app {
+  font-family: 'Poiret One', cursive;
+  color: green;
+}
+
+h1 {
+  padding: 15px;
+  margin: 20px;
+}
+
+#update-feed {
+  display: flex;
+}
+
+/* .friends {
+  width: 20%;
+  height: 200px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  border-radius: 5px;
+  float: left;
+} */
+
+.tweet, #update-feed{
+  padding: 10px;
+  margin: 30px;
+
+}
+
+
+
+.tweet {
+  width: 550px;
+  height: 180px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  border-radius: 5px;
+  display: center;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.name {
+  height: 100%;
+  width: 100%;
+  display: inline;
+  border: none;
+  background-color: white;
+  text-align: left;
+}
+
+i {
+  padding: 5px;
+  display: flex;
+  justify-content:flex-end;
+}
+
+.timestamp, .message {
+  text-align: right;
+}
+
+
